@@ -3,6 +3,7 @@ package com.hemebiotech.analytics;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -28,10 +29,13 @@ public class AnalyticsCounter {
             }
         }
 
+        // next generate output
+        FileWriter writerSymptom = new FileWriter("result.out");
         for (String symptom : mapSymptomWithNumberOccurence.keySet()) {
             System.out.println(symptom + "=" + mapSymptomWithNumberOccurence.get(symptom));
+            writerSymptom.write(symptom + "=" + mapSymptomWithNumberOccurence.get(symptom) + "\n");
         }
-
         symptomListReader.close();
+        writerSymptom.close();
     }
 }
