@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="Initial commit">
+    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;refactor&gt;(&lt;main&gt;): &lt;remove useless comments&gt;&#10;&#10;&lt;description&gt; Remove unnecessary comments that bring confusion in code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
     </list>
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661862568376</updated>
-      <workItem from="1661862570198" duration="2346000" />
+      <workItem from="1661862570198" duration="4761000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661862932695</created>
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661863018077</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;remove useless comments&gt;&#10;&#10;&lt;description&gt; Remove unnecessary comments that bring confusion in code">
+      <created>1661865306422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661865306422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;remove useless comments&gt;&#10;&#10;&lt;description&gt; Remove unnecessary comments that bring confusion in code" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;refactor&gt;(&lt;main&gt;): &lt;remove useless comments&gt;&#10;&#10;&lt;description&gt; Remove unnecessary comments that bring confusion in code" />
   </component>
 </project>
