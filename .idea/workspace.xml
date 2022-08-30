@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IWriteDataFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IWriteDataFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -71,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661862568376</updated>
-      <workItem from="1661862570198" duration="8595000" />
+      <workItem from="1661862570198" duration="8920000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661862932695</created>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661874895568</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom">
+      <created>1661874975306</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661874975306</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
