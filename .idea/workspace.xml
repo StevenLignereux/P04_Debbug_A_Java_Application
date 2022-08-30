@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file and write external file symptoms.out">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/CountSymptom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/CountSymptom.java" afterDir="false" />
+    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;refactor&gt;(&lt;count&gt;): &lt;reformatting main function and add CountSymptom class&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences">
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661862568376</updated>
-      <workItem from="1661862570198" duration="7453000" />
+      <workItem from="1661862570198" duration="8048000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661862932695</created>
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661870938124</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&lt;refactor&gt;(&lt;count&gt;): &lt;reformatting main function and add CountSymptom class&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences">
+      <created>1661872248562</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661872248562</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +158,7 @@
     <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;remove useless comments&gt;&#10;&#10;&lt;description&gt; Remove unnecessary comments that bring confusion in code" />
     <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file" />
     <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file and write external file symptoms.out" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file and write external file symptoms.out" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;count&gt;): &lt;reformatting main function and add CountSymptom class&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;refactor&gt;(&lt;count&gt;): &lt;reformatting main function and add CountSymptom class&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences" />
   </component>
 </project>
