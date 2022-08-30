@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom">
+    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661862568376</updated>
-      <workItem from="1661862570198" duration="8595000" />
+      <workItem from="1661862570198" duration="10706000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661862932695</created>
@@ -150,7 +150,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661874895568</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom">
+      <created>1661874975306</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661874975306</updated>
+    </task>
+    <task id="LOCAL-00013" summary="&lt;refactor&gt;(&lt;interface write file&gt;): &lt;create an interface for write file&gt;&#10;&#10;&lt;description&gt; Creating an interface for write the final file result">
+      <created>1661875418008</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661875418008</updated>
+    </task>
+    <task id="LOCAL-00014" summary="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class">
+      <created>1661876689397</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661876689397</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +195,8 @@
     <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file and write external file symptoms.out" />
     <MESSAGE value="&lt;refactor&gt;(&lt;count&gt;): &lt;reformatting main function and add CountSymptom class&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences" />
     <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;interface write file&gt;): &lt;create an interface for write file&gt;&#10;&#10;&lt;description&gt; Creating an interface for write the final file result" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class" />
   </component>
 </project>
