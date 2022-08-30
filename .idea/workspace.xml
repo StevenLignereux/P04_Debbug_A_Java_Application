@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="Initial commit" />
+    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file">
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,9 +39,30 @@
     "Project.color": "a994ff",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="AnalyticsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
+      <module name="P04_Debbug_A_Java_Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hemebiotech.analytics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnalyticsCounter" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661862568376</updated>
-      <workItem from="1661862570198" duration="377000" />
+      <workItem from="1661862570198" duration="5675000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661862932695</created>
@@ -57,7 +80,42 @@
       <option name="project" value="LOCAL" />
       <updated>1661862932695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1661863018077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661863018077</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;remove useless comments&gt;&#10;&#10;&lt;description&gt; Remove unnecessary comments that bring confusion in code">
+      <created>1661865306422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661865306422</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file">
+      <created>1661867479933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661867479933</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file">
+      <created>1661869962935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661869962935</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file">
+      <created>1661869981518</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661869981518</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;remove useless comments&gt;&#10;&#10;&lt;description&gt; Remove unnecessary comments that bring confusion in code" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file" />
   </component>
 </project>

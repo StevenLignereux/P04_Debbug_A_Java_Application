@@ -1,41 +1,41 @@
 package com.hemebiotech.analytics;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class AnalyticsCounter {
-    private static int headacheCount = 0;    // initialize to 0
-    private static int rashCount = 0;        // initialize to 0
-    private static int pupilCount = 0;        // initialize to 0
 
-    public static void main(String args[]) throws Exception {
-        // first get input
-        BufferedReader reader = new BufferedReader(new FileReader("symptoms.txt"));
-        String line = reader.readLine();
+    public static void main(String[] args) throws Exception {
+        // Use the maps to extracting the symptoms of the file
+        File symptomList = new File("symptoms.txt");
+        Map<String, Integer> mapSymptomWithNumberOccurence = new TreeMap<>();
+        FileReader symptomListReader = new FileReader(symptomList);
+        BufferedReader bufferedSymptomReader = new BufferedReader(symptomListReader);
 
-        int i = 0;    // set i to 0
-        int headCount = 0;    // counts headaches
-        while (line != null) {
-            i++;    // increment i
-            System.out.println("symptom from file: " + line);
-            if (line.equals("headache")) {
-                headCount++;
-                System.out.println("number of headaches: " + headCount);
-            } else if (line.equals("rush")) {
-                rashCount++;
-            } else if (line.contains("pupils")) {
-                pupilCount++;
+        // one symptom in the list
+        String symptomStr;
+
+        while ((symptomStr = bufferedSymptomReader.readLine()) != null) {
+            if (mapSymptomWithNumberOccurence.containsKey(symptomStr)) {
+                int countOccurence = mapSymptomWithNumberOccurence.get(symptomStr);
+                countOccurence++;
+                mapSymptomWithNumberOccurence.replace(symptomStr, countOccurence);
+            } else {
+                mapSymptomWithNumberOccurence.put(symptomStr, 1);
             }
-
-            line = reader.readLine();    // get another symptom
         }
 
         // next generate output
-        FileWriter writer = new FileWriter("result.out");
-        writer.write("headache: " + headacheCount + "\n");
-        writer.write("rash: " + rashCount + "\n");
-        writer.write("dialated pupils: " + pupilCount + "\n");
-        writer.close();
+        FileWriter writerSymptom = new FileWriter("result.out");
+        for (String symptom : mapSymptomWithNumberOccurence.keySet()) {
+            System.out.println(symptom + "=" + mapSymptomWithNumberOccurence.get(symptom));
+            writerSymptom.write(symptom + "=" + mapSymptomWithNumberOccurence.get(symptom) + "\n");
+        }
+        symptomListReader.close();
+        writerSymptom.close();
     }
 }
