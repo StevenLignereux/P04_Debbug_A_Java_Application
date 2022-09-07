@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +69,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661862568376</updated>
-      <workItem from="1661862570198" duration="10706000" />
+      <workItem from="1661862570198" duration="13345000" />
+      <workItem from="1661927321539" duration="2626000" />
+      <workItem from="1662522143871" duration="36000" />
+      <workItem from="1662522201252" duration="649000" />
+      <workItem from="1662523271268" duration="2153000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661862932695</created>
@@ -171,7 +173,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661876689397</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class">
+      <created>1661877048267</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661877048267</updated>
+    </task>
+    <task id="LOCAL-00016" summary="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project">
+      <created>1661879365111</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661879365111</updated>
+    </task>
+    <task id="LOCAL-00017" summary="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project">
+      <created>1662525412985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662525412985</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +220,7 @@
     <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom" />
     <MESSAGE value="&lt;refactor&gt;(&lt;interface write file&gt;): &lt;create an interface for write file&gt;&#10;&#10;&lt;description&gt; Creating an interface for write the final file result" />
     <MESSAGE value="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class" />
+    <MESSAGE value="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project" />
   </component>
 </project>
