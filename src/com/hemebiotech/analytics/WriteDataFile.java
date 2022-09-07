@@ -6,14 +6,18 @@ import java.io.IOException;
 import java.util.Map;
 
 /**
+ * This class write the results File
+ *
  * @since 30/08/2022
  * @author  steven.
- * this class write the results File
  */
 
 public class WriteDataFile implements IWriteDataFile {
     private final String filePath;
 
+    /**
+     * @param filePath the path of file symptoms.txt
+     */
     public WriteDataFile(String filePath) {
         this.filePath = filePath;
     }
