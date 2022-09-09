@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="Initial commit" />
+    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,14 +32,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "a994ff",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;a994ff&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="AnalyticsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
+      <module name="P04_Debbug_A_Java_Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hemebiotech.analytics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnalyticsCounter" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +69,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661862568376</updated>
-      <workItem from="1661862570198" duration="377000" />
+      <workItem from="1661862570198" duration="13345000" />
+      <workItem from="1661927321539" duration="2626000" />
+      <workItem from="1662522143871" duration="36000" />
+      <workItem from="1662522201252" duration="649000" />
+      <workItem from="1662523271268" duration="2153000" />
+      <workItem from="1662531848091" duration="653000" />
+      <workItem from="1662538840670" duration="1995000" />
+      <workItem from="1662541374262" duration="681000" />
+      <workItem from="1662682505808" duration="1335000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661862932695</created>
@@ -57,7 +86,147 @@
       <option name="project" value="LOCAL" />
       <updated>1661862932695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1661863018077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661863018077</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;remove useless comments&gt;&#10;&#10;&lt;description&gt; Remove unnecessary comments that bring confusion in code">
+      <created>1661865306422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661865306422</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file">
+      <created>1661867479933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661867479933</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file">
+      <created>1661869962935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661869962935</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file">
+      <created>1661869981518</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661869981518</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file and write external file symptoms.out">
+      <created>1661870565993</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661870565993</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file and write external file symptoms.out">
+      <created>1661870938124</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661870938124</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&lt;refactor&gt;(&lt;count&gt;): &lt;reformatting main function and add CountSymptom class&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences">
+      <created>1661872248562</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661872248562</updated>
+    </task>
+    <task id="LOCAL-00010" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom">
+      <created>1661872868134</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661872868134</updated>
+    </task>
+    <task id="LOCAL-00011" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom">
+      <created>1661874895568</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661874895568</updated>
+    </task>
+    <task id="LOCAL-00012" summary="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom">
+      <created>1661874975306</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661874975306</updated>
+    </task>
+    <task id="LOCAL-00013" summary="&lt;refactor&gt;(&lt;interface write file&gt;): &lt;create an interface for write file&gt;&#10;&#10;&lt;description&gt; Creating an interface for write the final file result">
+      <created>1661875418008</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661875418008</updated>
+    </task>
+    <task id="LOCAL-00014" summary="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class">
+      <created>1661876689397</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661876689397</updated>
+    </task>
+    <task id="LOCAL-00015" summary="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class">
+      <created>1661877048267</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661877048267</updated>
+    </task>
+    <task id="LOCAL-00016" summary="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project">
+      <created>1661879365111</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661879365111</updated>
+    </task>
+    <task id="LOCAL-00017" summary="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project">
+      <created>1662525412985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662525412985</updated>
+    </task>
+    <task id="LOCAL-00018" summary="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project">
+      <created>1662531859435</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662531859435</updated>
+    </task>
+    <task id="LOCAL-00019" summary="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project">
+      <created>1662682537851</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662682537851</updated>
+    </task>
+    <task id="LOCAL-00020" summary="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project">
+      <created>1662683234472</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662683234472</updated>
+    </task>
+    <task id="LOCAL-00021" summary="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project">
+      <created>1662683648786</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1662683648786</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,7 +237,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -76,6 +257,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;remove useless comments&gt;&#10;&#10;&lt;description&gt; Remove unnecessary comments that bring confusion in code" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function&gt;&#10;&#10;&lt;description&gt; Reformatting main function for use a map object and classes for reading file and write external file symptoms.out" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;count&gt;): &lt;reformatting main function and add CountSymptom class&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;main&gt;): &lt;reformatting main function for use classes&gt;&#10;&#10;&lt;description&gt; Creating a class for count symptoms occurences. Refactor main function for using ReadSymptomDataFromfile and CountSymptom" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;interface write file&gt;): &lt;create an interface for write file&gt;&#10;&#10;&lt;description&gt; Creating an interface for write the final file result" />
+    <MESSAGE value="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class" />
+    <MESSAGE value="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project" />
+    <MESSAGE value="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project" />
   </component>
 </project>

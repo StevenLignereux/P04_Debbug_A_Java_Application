@@ -1,41 +1,43 @@
 package com.hemebiotech.analytics;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * The main class allows you to extract/read symptoms of a external file and count and alphabetical order the list of symptoms with number of occurrences.
+ * Finally, write the list in a result file.
+ *
+ * @author steven
+ * @since 30/08/2022
+ */
 
 public class AnalyticsCounter {
-    private static int headacheCount = 0;    // initialize to 0
-    private static int rashCount = 0;        // initialize to 0
-    private static int pupilCount = 0;        // initialize to 0
+    /**
+     * Constant for path of symptoms files
+     *
+     */
+    public static String INPUTFILE = "symptoms.txt";
 
-    public static void main(String args[]) throws Exception {
-        // first get input
-        BufferedReader reader = new BufferedReader(new FileReader("symptoms.txt"));
-        String line = reader.readLine();
+    /**
+     * Constant for path of result file
+     */
+    public static String OUTPUTFILE = "result.out";
 
-        int i = 0;    // set i to 0
-        int headCount = 0;    // counts headaches
-        while (line != null) {
-            i++;    // increment i
-            System.out.println("symptom from file: " + line);
-            if (line.equals("headache")) {
-                headCount++;
-                System.out.println("number of headaches: " + headCount);
-            } else if (line.equals("rush")) {
-                rashCount++;
-            } else if (line.contains("pupils")) {
-                pupilCount++;
-            }
+    /**
+     * The main class method called methods of classes
+     *
+     * @param args String array object
+     * @throws Exception exception object for catch errors
+     */
+    public static void main(String[] args) throws Exception {
 
-            line = reader.readLine();    // get another symptom
-        }
+        ReadSymptomDataFromFile symptomReader = new ReadSymptomDataFromFile(INPUTFILE);
+        List<String> listOfSymptoms = symptomReader.GetSymptoms();
 
-        // next generate output
-        FileWriter writer = new FileWriter("result.out");
-        writer.write("headache: " + headacheCount + "\n");
-        writer.write("rash: " + rashCount + "\n");
-        writer.write("dialated pupils: " + pupilCount + "\n");
-        writer.close();
+        CountSymptom countSymptomInstance = new CountSymptom(listOfSymptoms);
+        Map<String, Integer> resultSymptom = countSymptomInstance.getMapOfSymptomsWithNumberOccurences();
+
+        IWriteDataFile writeDataFile = new WriteDataFile(OUTPUTFILE);
+        writeDataFile.writeData(resultSymptom);
     }
 }
