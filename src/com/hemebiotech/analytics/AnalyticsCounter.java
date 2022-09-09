@@ -13,13 +13,13 @@ import java.util.Map;
 
 public class AnalyticsCounter {
     /**
-     * Constant for path of symptoms file
+     * Constant for path of symptoms files
      *
      */
     public static String INPUTFILE = "symptoms.txt";
 
     /**
-     * Constante for path of result file
+     * Constant for path of result file
      */
     public static String OUTPUTFILE = "result.out";
 
