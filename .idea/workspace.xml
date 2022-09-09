@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +77,7 @@
       <workItem from="1662531848091" duration="653000" />
       <workItem from="1662538840670" duration="1995000" />
       <workItem from="1662541374262" duration="681000" />
-      <workItem from="1662682505808" duration="615000" />
+      <workItem from="1662682505808" duration="958000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661862932695</created>
@@ -215,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662682537851</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project">
+      <created>1662683234472</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662683234472</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +258,7 @@
     <MESSAGE value="&lt;refactor&gt;(&lt;interface write file&gt;): &lt;create an interface for write file&gt;&#10;&#10;&lt;description&gt; Creating an interface for write the final file result" />
     <MESSAGE value="&lt;refactor&gt;(&lt;class write file&gt;): &lt;create a class for write file&gt;&#10;&#10;&lt;description&gt; Creating a class who use interface writefile for creating result file and use it into AnaliticsCounter class" />
     <MESSAGE value="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;doc&gt;(&lt;add javadoc&gt;): &lt;add javadoc for the project&gt;&#10;&#10;&lt;description&gt; Adding and generating javadoc for the project" />
+    <MESSAGE value="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project" />
   </component>
 </project>
