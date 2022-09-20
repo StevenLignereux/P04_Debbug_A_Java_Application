@@ -16,7 +16,7 @@ public class AnalyticsCounter {
      * Constant for path of symptoms files
      *
      */
-    public static String INPUTFILE = "symptoms.txt";
+    public static String INPUTFILE = "symptom.txt";
 
     /**
      * Constant for path of result file
@@ -32,7 +32,7 @@ public class AnalyticsCounter {
     public static void main(String[] args) throws Exception {
 
         ReadSymptomDataFromFile symptomReader = new ReadSymptomDataFromFile(INPUTFILE);
-        List<String> listOfSymptoms = symptomReader.GetSymptoms();
+        List<String> listOfSymptoms = symptomReader.getSymptoms();
 
         CountSymptom countSymptomInstance = new CountSymptom(listOfSymptoms);
         Map<String, Integer> resultSymptom = countSymptomInstance.getMapOfSymptomsWithNumberOccurences();

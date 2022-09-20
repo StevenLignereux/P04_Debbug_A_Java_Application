@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project" />
+    <list default="true" id="d012c70d-7b0d-4be1-b70a-f61a3647d0bc" name="Changes" comment="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/AnalyticsCounter.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/AnalyticsCounter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/CountSymptom.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/CountSymptom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/ISymptomReader.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/ISymptomReader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/IWriteDataFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/IWriteDataFile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/ReadSymptomDataFromFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/ReadSymptomDataFromFile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/WriteDataFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/WriteDataFile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/com/hemebiotech/analytics/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaDoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ISymptomReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ISymptomReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IWriteDataFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IWriteDataFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadSymptomDataFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadSymptomDataFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteDataFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteDataFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symptoms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/symptom.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,11 +68,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="AnalyticsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.AnalyticsCounter">
+    <configuration name="AnalyticsCounter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
       <module name="P04_Debbug_A_Java_Application" />
       <extension name="coverage">
@@ -55,8 +88,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnalyticsCounter (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
+      <module name="P04_Debbug_A_Java_Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hemebiotech.analytics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnalyticsCounter (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
+      <module name="P04_Debbug_A_Java_Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hemebiotech.analytics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnalyticsCounter" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
+      <module name="P04_Debbug_A_Java_Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hemebiotech.analytics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnalyticsCounterInitial" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
+      <module name="P04_Debbug_A_Java_Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hemebiotech.analytics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AnalyticsCounter" />
+      <item itemvalue="Application.AnalyticsCounter (1)" />
+      <item itemvalue="Application.AnalyticsCounterInitial" />
+      <item itemvalue="Application.AnalyticsCounter (2)" />
+      <item itemvalue="Application.AnalyticsCounter (3)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnalyticsCounter (1)" />
+        <item itemvalue="Application.AnalyticsCounterInitial" />
+        <item itemvalue="Application.AnalyticsCounter (3)" />
+        <item itemvalue="Application.AnalyticsCounter (2)" />
         <item itemvalue="Application.AnalyticsCounter" />
       </list>
     </recent_temporary>
@@ -77,7 +175,16 @@
       <workItem from="1662531848091" duration="653000" />
       <workItem from="1662538840670" duration="1995000" />
       <workItem from="1662541374262" duration="681000" />
-      <workItem from="1662682505808" duration="1335000" />
+      <workItem from="1662682505808" duration="1530000" />
+      <workItem from="1662684394137" duration="4000" />
+      <workItem from="1662689655381" duration="1026000" />
+      <workItem from="1662691670903" duration="1755000" />
+      <workItem from="1662694468771" duration="39000" />
+      <workItem from="1662694965663" duration="256000" />
+      <workItem from="1662727015159" duration="599000" />
+      <workItem from="1662730611701" duration="10000" />
+      <workItem from="1663136964998" duration="2983000" />
+      <workItem from="1663667433024" duration="3321000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661862932695</created>
@@ -226,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662683648786</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&lt;doc&gt;(&lt;add readme&gt;): &lt;add readme for the project&gt;&#10;&#10;&lt;description&gt; Adding a readme file for the project">
+      <created>1662683894185</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1662683894185</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

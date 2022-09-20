@@ -5,10 +5,10 @@ import java.util.Map;
 
 /*
   * Anything that will write a file who's contains the result
-  *
   * The format of file is .out
-
+  *
  */
+
 public interface IWriteDataFile {
 
     /**
