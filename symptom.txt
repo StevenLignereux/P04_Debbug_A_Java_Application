@@ -1,4 +1,5 @@
 fever
+fever
 dialated pupils
 dry mouth
 inflamation
@@ -22,7 +23,6 @@ tremor
 dry mouth
 arrhythmias
 stomach pain
-anxiety
 dizziness
 water retention
 fever
@@ -97,4 +97,3 @@ low blood pressure
 anxiety
 cough
 blurred vision
-anxiety

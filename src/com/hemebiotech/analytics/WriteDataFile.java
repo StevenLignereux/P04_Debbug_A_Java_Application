@@ -16,7 +16,7 @@ public class WriteDataFile implements IWriteDataFile {
     private final String filePath;
 
     /**
-     * @param filePath the path of file symptoms.txt
+     * @param filePath the path of file symptom.txt
      */
     public WriteDataFile(String filePath) {
         this.filePath = filePath;
